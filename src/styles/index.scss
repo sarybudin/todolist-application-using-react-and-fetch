@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap.scss";
+.contenedor{
+    width: 500px;
+    height: auto;
+    border: 0px;
+    background: #fddcff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contenedor> ul {
+    list-style-type:none;
+    padding: 0px;
+}
+.contenedor > ul li {
+    justify-content: space-between;
+    display: flex;
+}
+.contenedor > input{
+    width: 100%;
+    border: 0px;
+    border-radius: 10px;
+}
+.padre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(182,148,233,1) 100%);
+}
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
